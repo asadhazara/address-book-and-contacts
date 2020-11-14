@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/address-book-and-contacts/static/css/main.aeb6ec2c.chunk.css",
+    "main.js": "/address-book-and-contacts/static/js/main.905832ee.chunk.js",
+    "main.js.map": "/address-book-and-contacts/static/js/main.905832ee.chunk.js.map",
+    "runtime-main.js": "/address-book-and-contacts/static/js/runtime-main.5ddaec42.js",
+    "runtime-main.js.map": "/address-book-and-contacts/static/js/runtime-main.5ddaec42.js.map",
+    "static/js/2.e0bf79fc.chunk.js": "/address-book-and-contacts/static/js/2.e0bf79fc.chunk.js",
+    "static/js/2.e0bf79fc.chunk.js.map": "/address-book-and-contacts/static/js/2.e0bf79fc.chunk.js.map",
+    "static/js/3.3aeabce8.chunk.js": "/address-book-and-contacts/static/js/3.3aeabce8.chunk.js",
+    "static/js/3.3aeabce8.chunk.js.map": "/address-book-and-contacts/static/js/3.3aeabce8.chunk.js.map",
+    "index.html": "/address-book-and-contacts/index.html",
+    "static/css/main.aeb6ec2c.chunk.css.map": "/address-book-and-contacts/static/css/main.aeb6ec2c.chunk.css.map",
+    "static/js/2.e0bf79fc.chunk.js.LICENSE.txt": "/address-book-and-contacts/static/js/2.e0bf79fc.chunk.js.LICENSE.txt",
+    "static/media/edit.f9a98551.svg": "/address-book-and-contacts/static/media/edit.f9a98551.svg",
+    "static/media/plus.887d2aad.svg": "/address-book-and-contacts/static/media/plus.887d2aad.svg",
+    "static/media/trash.bba7f8a9.svg": "/address-book-and-contacts/static/media/trash.bba7f8a9.svg",
+    "static/media/x.6c9a4ba7.svg": "/address-book-and-contacts/static/media/x.6c9a4ba7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ddaec42.js",
+    "static/js/2.e0bf79fc.chunk.js",
+    "static/css/main.aeb6ec2c.chunk.css",
+    "static/js/main.905832ee.chunk.js"
+  ]
+}
