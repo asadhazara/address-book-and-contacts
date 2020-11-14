@@ -15,12 +15,10 @@ const ContactSummary = ({ contact }) => {
     <div className="ContactSummary">
       <ul className="ContactSummary__List">
         {['status', 'name', 'email', 'phone'].map(field => (
-          <React.Fragment key={field}>
-            <li className="ContactSummary__Item">
-              <div className="ContactSummary__Label">{field}</div>
-              <div className="ContactSummary__Value">{contact[field]}</div>
-            </li>
-          </React.Fragment>
+          <li className="ContactSummary__Item" key={field}>
+            <div className="ContactSummary__Label">{field}</div>
+            <div className="ContactSummary__Value">{contact[field]}</div>
+          </li>
         ))}
       </ul>
     </div>
