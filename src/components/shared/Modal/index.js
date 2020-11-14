@@ -27,6 +27,10 @@ const FADE = {
  * @type {React.FC<Props>}
  */
 const Modal = ({ onClose, children }) => {
+  /**
+   * @typedef {typeof FADE[keyof typeof FADE]} Fade
+   * @type [Fade, React.Dispatch<React.SetStateAction<Fade>>]]
+   */
   const [fade, setFade] = useState(null);
 
   const handleOnTransitionEnd = useCallback(
