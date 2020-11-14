@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/address-book-and-contacts/static/css/main.aeb6ec2c.chunk.css",
-    "main.js": "/address-book-and-contacts/static/js/main.905832ee.chunk.js",
-    "main.js.map": "/address-book-and-contacts/static/js/main.905832ee.chunk.js.map",
+    "main.js": "/address-book-and-contacts/static/js/main.0f940f8c.chunk.js",
+    "main.js.map": "/address-book-and-contacts/static/js/main.0f940f8c.chunk.js.map",
     "runtime-main.js": "/address-book-and-contacts/static/js/runtime-main.5ddaec42.js",
     "runtime-main.js.map": "/address-book-and-contacts/static/js/runtime-main.5ddaec42.js.map",
     "static/js/2.e0bf79fc.chunk.js": "/address-book-and-contacts/static/js/2.e0bf79fc.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.5ddaec42.js",
     "static/js/2.e0bf79fc.chunk.js",
     "static/css/main.aeb6ec2c.chunk.css",
-    "static/js/main.905832ee.chunk.js"
+    "static/js/main.0f940f8c.chunk.js"
   ]
 }
