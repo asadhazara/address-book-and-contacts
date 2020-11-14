@@ -1,0 +1,49 @@
+// display
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+// position
+.sticky {
+  position: sticky;
+}
+
+// Top / Right / Bottom / Left
+.top-0 {
+  top: 0;
+}
+
+// text-transform
+.uppercase {
+  text-transform: uppercase;
+}
+
+// Colors
+.bg-light {
+  background-color: map-get($colors, light);
+}
+
+// Margin
+.ml-auto {
+  margin-left: auto;
+}
+
+// Color
+.text-danger {
+  color: map-get($colors, danger);
+}
+
+.text-secondary {
+  color: map-get($colors, secondary);
+}
+
+// Word Break
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

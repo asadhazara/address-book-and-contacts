@@ -1,0 +1,33 @@
+@import 'scss/variables.scss';
+
+.Button {
+  padding: map-get($spaces, 2);
+  cursor: pointer;
+
+  &.isActive {
+    background-color: map-get($colors, primary);
+    color: map-get($colors, white);
+  }
+
+  &--small {
+    font-size: 0.8rem;
+  }
+
+  &--large {
+    font-size: 1.2rem;
+  }
+
+  &--primary {
+    background-color: map-get($colors, primary);
+    color: map-get($colors, white);
+  }
+
+  &--secondary {
+    background-color: map-get($colors, secondary);
+  }
+
+  &--success {
+    background-color: map-get($colors, success);
+    color: map-get($colors, white);
+  }
+}

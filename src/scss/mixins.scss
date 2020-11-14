@@ -1,0 +1,9 @@
+@mixin screen($breakpoint) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@function get-space($key) {
+  @return map-get($spaces, $key);
+}

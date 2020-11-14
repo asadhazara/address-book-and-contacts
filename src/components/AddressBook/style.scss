@@ -1,0 +1,56 @@
+@import 'scss/variables.scss';
+
+.AddressBook {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: map-get($shadows, 3);
+  max-width: map-get($breakpoints, xs);
+  background: map-get($colors, white);
+
+  &__Header {
+    padding: map-get($spaces, 4);
+    border-bottom: 1px solid map-get($colors, secondary);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  &__Title {
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  &__Actions {
+    padding: 0 map-get($spaces, 4);
+  }
+
+  &__Filters {
+    display: flex;
+  }
+
+  &__List {
+    list-style: none;
+    position: relative;
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+
+  &__Item{
+    > * {
+      padding: map-get($spaces, 2) map-get($spaces, 4);
+    }
+    
+    > button {
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+
+      &:hover {
+        background-color: map-get($colors, secondary);
+      }
+    }
+  }
+}

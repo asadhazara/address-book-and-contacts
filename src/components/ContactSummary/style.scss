@@ -1,0 +1,42 @@
+@import 'scss/variables.scss';
+@import 'scss/mixins.scss';
+
+.ContactSummary {
+  display: flex;
+
+  &__List {
+    width: 100%;
+  }
+  
+
+  &__Item  {
+    margin-bottom: map-get($spaces, 4);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include screen(xs) {
+      display: flex;
+    }
+  }
+
+  &__Label {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: map-get($spaces, 2);
+
+    @include screen(xs) {
+      width: 100%;
+      max-width: 25%;
+      flex: 1 1 25%;
+      margin-bottom: 0;
+    }
+  }
+
+  &__Value {
+    @include screen(xs) {
+      flex: 1 1 auto;
+    }
+  }
+}

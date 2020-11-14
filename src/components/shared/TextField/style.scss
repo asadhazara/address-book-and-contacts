@@ -1,0 +1,50 @@
+@import 'scss/variables.scss';
+@import 'scss/mixins.scss';
+
+.TextField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: map-get($spaces, 4);
+
+  > * {
+    width: auto;
+    flex: 1 1 auto;
+  }
+
+  @include screen(xs) {
+    flex-direction: row;
+    align-items: center;
+
+    > *:first-child {
+      width: 100%;
+      max-width: 25%;
+      flex: 1 1 25%;
+    }
+  }
+
+  &__Label {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    margin-bottom: map-get($spaces, 1);
+    
+    @include screen(xs) {
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+  }
+
+  &__Input {
+    padding: map-get($spaces, 3) map-get($spaces, 4);
+    border: 1px solid map-get($colors, secondary);
+    background: map-get($colors, light);
+    width: 100%;
+
+    &.hasError {
+      border-color: map-get($colors, danger);
+    }
+  }
+
+  &__Error {
+    display: block;
+  }
+}
