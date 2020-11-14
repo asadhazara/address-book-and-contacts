@@ -20,6 +20,7 @@ const addressBookReducer = (state, action) => {
 
   switch (action.type) {
     case 'ADD_CONTACT':
+      newState.filters.status = action.payload.status;
       newState.contacts = [...newState.contacts, action.payload];
 
       return newState;
@@ -28,6 +29,7 @@ const addressBookReducer = (state, action) => {
 
       return newState;
     case 'CHANGE_CONTACT':
+      newState.filters.status = action.payload.status;
       newState.contacts = newState.contacts.map(contact =>
         contact.id === action.payload.id ? action.payload : contact
       );
